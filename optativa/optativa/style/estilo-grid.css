@@ -1,0 +1,149 @@
+body, html{
+	height: 100%;
+	background: gray;
+}
+
+#container{
+
+	height: 100%;
+	display: grid;
+	grid-template-rows: auto auto auto;
+
+}
+
+#header{
+	border: 1px solid white;
+	margin: 1px;
+	padding:1px;
+	text-align: center;
+	
+}
+
+#header img {
+	grid-auto-rows: auto;
+    max-width: auto;
+    max-height: auto;
+    width: 100%;
+    height: 200px;
+   
+}
+
+#main{
+	
+	padding:1px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	
+}
+
+#main img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+#main #menu-lateral {
+	border: 1px solid white;
+	margin: 1px;
+	padding:1px;
+}
+
+
+
+
+#main #content{
+	
+	margin: 1px;
+	padding: 250px;
+	width: auto;
+}
+
+#footer{
+	border: 1px solid white;
+	margin: 1px;
+	padding: auto;
+	text-align: center;
+	
+}
+
+#footer img {
+	grid-auto-rows: auto;
+    max-width: auto;
+    max-height: auto;
+    width: 100%;
+    height: 100%;
+   
+}
+#menu ul{
+	display: flex;
+	list-style: none;
+	border: 1px solid white;
+	margin: 1px;
+	padding:1px;
+}
+
+#menu ul li{
+	border: 1px solid white;
+	margin: 1px;
+	padding: 1px;
+}
+
+#menu-lateral ul{
+	list-style: none;
+	padding: 1px;
+}
+
+#menu-lateral-direito ul{
+	list-style: none;
+	padding: 1px;
+}
+
+#menu-lateral ul li{
+	border: 1px solid blue;
+	margin: 1px;
+	padding: 1px;
+}
+
+#menu-lateral-direito ul li{
+	border: 2px solid blue;
+	margin: 5px;
+	padding: 5px;
+}
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #483D8B;
+}
+
+.btn-group button {
+  background-color: #4F4F4F; /* Green background */
+  border: 1px solid A9A9A9; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  width: 100%; /* Set a width if needed */
+  display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group button:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: #836FFF;
+}
