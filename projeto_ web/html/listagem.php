@@ -17,11 +17,10 @@
                 <div class="coluna col8">
                     <nav>
                         <ul class="menu inline sem-marcador">
-                            <li><a href="../index.php">Página inicial</a></li>
-                            <li><a href="simuladores.php">Simuladores</a></li>
-                            <li><a href="sobre.php">sobre</a></li>
-                            <li><a href="cadastro.php">Fale conosco</a></li>
-                            <li><a href="html/listagem.php">Listagem</a></li>
+                            <li><a href="../index.html">Página inicial</a></li>
+                            <li><a href="simuladores.html">Simuladores</a></li>
+                            <li><a href="sobre.html">sobre</a></li>
+                            <li><a href="contato.php">Fale conosco</a></li>
                         </ul>
                     </nav>
                 </div>

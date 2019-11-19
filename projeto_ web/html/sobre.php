@@ -20,7 +20,7 @@
                             <li><a href="../index.php">Página inicial</a></li>
                             <li><a href="simuladores.php">Simuladores</a></li>
                             <li><a href="sobre.php">sobre</a></li>
-                            <li><a href="cadastro.php">Fale conosco</a></li>
+                            <li><a href="cadastro.php">Cadastro</a></li>
                             <li><a href="html/listagem.php">Listagem</a></li>
                         </ul>
                     </nav>
@@ -30,39 +30,23 @@
     </div>
     <div class="linha">
         <section>
-            <div class="coluna col5 sidebar">
-                <h3>Localização</h3>
-                <img src="../img/mapa.jpg" />
-                <ul class="sem-padding sem-marcador">
-                    <li>Rua dos bobos, 0</li>
-                    <li>TC - MG</li>
-                </ul>
-                <h3>Contato Direto</h3>
-
-                <ul class="sem-padding sem-marcador">
-                    <li>Fone: <strong>(00) 9 9999-9999</strong></li>
-                    <li>E-mail: <strong>AV@exemplo.com</strong></li>
-                  
-                </ul>
+            <div class="coluna col8">
+                <h2>Sobre:</h2>
+                <p>
+                  Site destinado a amantes de automobilismo virtual, com o intuito de difundir a modalidade. Esse site foi desenvolvido como verificação
+                  ded aprendizagem. Agradeço ao professor Alexandre pela atenção e paciência nas instruções para a melhor construção do site em desenvolvimento. 
+                </p>
+                
             </div>
-            <div class="coluna col7 contato">
-                <h2>Cadastro:</h2>
-                <form action="?pg=processar<?= $actionEditar ?>" method="POST">
-        
-         <div class="form-group">
-            <label for="inputNome">Nome</label>
-            <input type="text" class="form-control" id="inputNome" name="nome" aria-describedby="emailHelp" placeholder="Digite seu nome" value="<?= $nome ?>">         
-         </div>
-          <div class="form-group">
-            <label for="exampleInputEmail1">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" name="email" aria-describedby="emailHelp" placeholder="Digite seu e-mail" value="<?= $email ?>">           
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1">Senha</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" name="senha" placeholder="Digite sua senha" value="<?= $senha ?>">
-          </div>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-                </form>
+
+            <div class="coluna col4 sidebar">
+                
+                <ul>
+                    <li>Tiago Luiz Ribeiro Pires - Cursando oitavo período de ciência da computação</li>
+                    
+                </ul>
+                
+                
             </div>
         </section>
     </div>
@@ -74,6 +58,7 @@
                 </section>
             </div>
             <div class="coluna col5">
+                
                 <h3>Nossos parceiros:</h3>
                 <ul class="sem-marcador sem-padding noticias">
                     <li>
